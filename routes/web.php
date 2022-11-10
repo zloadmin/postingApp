@@ -4,7 +4,7 @@ use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
 
-$serverUrl = 'http://localhost:4444';
+$serverUrl = 'http://localhost:9515';
 
 $driver = RemoteWebDriver::create($serverUrl, DesiredCapabilities::chrome());
 
